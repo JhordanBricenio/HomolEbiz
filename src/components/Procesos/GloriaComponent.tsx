@@ -1,6 +1,11 @@
 import { FunctionComponent, useCallback } from "react";
 import DataComponent from "./DataComponent";
 
+const 
+infoFill="../src/assets/images/info-fill.png";
+const 
+paperClipLight2="../src/assets/images/paper-clip.png"
+
 const GloriaComponent: FunctionComponent = () => {
   const onGloriaTextClick = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='rectangle']");
@@ -15,10 +20,10 @@ const GloriaComponent: FunctionComponent = () => {
         <div className="h-[294px] w-[1030px] relative shadow-[0px_0px_4px_2px_rgba(124,_124,_124,_0.25)] rounded bg-white box-border hidden max-w-full border-[0.5px] border-solid border-gray" />
         <div className="h-[509px] w-[773.6px] flex flex-col items-start justify-start pt-0 px-0 pb-[249px] box-border gap-[11px] max-w-[calc(100%_-_101px)] mq925:h-auto">
           <DataComponent
-            infoFill="/info-fill@2x.png"
-            infoFill1="/info-fill-1@2x.png"
-            infoFill2="/info-fill@2x.png"
-            paperClipLight2="/paper-clip-light.svg"
+              infoFill="../src/assets/images/info-fill.png"
+              infoFill1="../src/assets/images/info-fill.png"
+              infoFill2="../src/assets/images/info-fill.png"
+              paperClipLight2="../assets/images/paper-clip.png"
             // frameDivDebugCommit="unset"
           />
           <div className="flex flex-row items-end justify-start gap-[6.7px] shrink-0 [debug_commit:bf4bc93] max-w-full mq925:flex-wrap">
@@ -32,7 +37,7 @@ const GloriaComponent: FunctionComponent = () => {
                   className="h-6 w-[26.8px] relative object-cover min-h-[24px] z-[1]"
                   loading="lazy"
                   alt=""
-                  src="/info-fill-1@2x.png"
+                  src={infoFill}
                 />
                 <div className="flex-1 flex flex-row items-start justify-start gap-[6.7px] min-w-[156px] mq450:flex-wrap">
                   <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border min-w-[135px]">
@@ -43,7 +48,7 @@ const GloriaComponent: FunctionComponent = () => {
                   <img
                     className="h-6 w-[26.8px] relative min-h-[24px] z-[1]"
                     alt=""
-                    src="/paper-clip-light.svg"
+                    src={paperClipLight2}
                   />
                 </div>
               </div>
@@ -61,7 +66,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="w-[26.8px] h-6 relative object-cover"
                     loading="lazy"
                     alt=""
-                    src="/info-fill-1@2x.png"
+                    src={infoFill}
                   />
                 </div>
               </div>
@@ -76,7 +81,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="h-6 w-[26.8px] relative min-h-[24px]"
                     loading="lazy"
                     alt=""
-                    src="/paper-clip-light.svg"
+                    src={paperClipLight2}
                   />
                 </div>
               </div>
@@ -92,7 +97,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="w-[26.8px] h-6 relative object-cover"
                     loading="lazy"
                     alt=""
-                    src="/info-fill-1@2x.png"
+                    src={infoFill}
                   />
                 </div>
               </div>
@@ -107,7 +112,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="h-6 w-[26.8px] relative min-h-[24px]"
                     loading="lazy"
                     alt=""
-                    src="/paper-clip-light.svg"
+                    src={paperClipLight2}
                   />
                 </div>
               </div>
@@ -123,7 +128,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="w-[26.8px] h-6 relative object-cover"
                     loading="lazy"
                     alt=""
-                    src="/info-fill-1@2x.png"
+                    src={infoFill}
                   />
                 </div>
               </div>
@@ -138,7 +143,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="h-6 w-[26.8px] relative min-h-[24px]"
                     loading="lazy"
                     alt=""
-                    src="/paper-clip-light.svg"
+                    src={paperClipLight2}
                   />
                 </div>
               </div>
@@ -154,7 +159,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="w-[26.8px] h-6 relative object-cover"
                     loading="lazy"
                     alt=""
-                    src="/info-fill-1@2x.png"
+                    src={infoFill}
                   />
                 </div>
               </div>
@@ -169,7 +174,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="h-6 w-[26.8px] relative min-h-[24px]"
                     loading="lazy"
                     alt=""
-                    src="/paper-clip-light.svg"
+                    src={paperClipLight2}
                   />
                 </div>
               </div>
@@ -185,7 +190,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="w-[26.8px] h-6 relative object-cover"
                     loading="lazy"
                     alt=""
-                    src="/info-fill-1@2x.png"
+                    src={infoFill}
                   />
                 </div>
               </div>
@@ -200,7 +205,7 @@ const GloriaComponent: FunctionComponent = () => {
                     className="h-6 w-[26.8px] relative min-h-[24px]"
                     loading="lazy"
                     alt=""
-                    src="/paper-clip-light.svg"
+                    src={paperClipLight2}
                   />
                 </div>
               </div>
@@ -215,7 +220,7 @@ const GloriaComponent: FunctionComponent = () => {
                   <img
                     className="w-[26.8px] h-6 relative object-cover"
                     alt=""
-                    src="/info-fill-1@2x.png"
+                    src={infoFill}
                   />
                 </div>
               </div>
@@ -229,7 +234,7 @@ const GloriaComponent: FunctionComponent = () => {
                   <img
                     className="h-6 w-[26.8px] relative min-h-[24px]"
                     alt=""
-                    src="/paper-clip-light.svg"
+                    src={paperClipLight2}
                   />
                 </div>
               </div>
@@ -244,7 +249,7 @@ const GloriaComponent: FunctionComponent = () => {
                   <img
                     className="w-[26.8px] h-6 relative object-cover"
                     alt=""
-                    src="/info-fill-1@2x.png"
+                    src={infoFill}
                   />
                 </div>
               </div>
@@ -258,7 +263,7 @@ const GloriaComponent: FunctionComponent = () => {
                   <img
                     className="h-6 w-[26.8px] relative min-h-[24px]"
                     alt=""
-                    src="/paper-clip-light.svg"
+                    src={paperClipLight2}
                   />
                 </div>
               </div>
@@ -274,7 +279,7 @@ const GloriaComponent: FunctionComponent = () => {
               <img
                 className="h-6 w-[26.8px] relative object-cover"
                 alt=""
-                src="/info-fill-1@2x.png"
+                src={infoFill}
               />
             </div>
             <div className="w-[240.3px] flex flex-row items-start justify-start gap-[6.7px]">
@@ -286,7 +291,7 @@ const GloriaComponent: FunctionComponent = () => {
               <img
                 className="h-6 w-[26.8px] relative min-h-[24px]"
                 alt=""
-                src="/paper-clip-light.svg"
+                src={paperClipLight2}
               />
             </div>
           </div>

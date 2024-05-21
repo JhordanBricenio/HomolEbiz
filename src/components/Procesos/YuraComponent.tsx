@@ -1,6 +1,10 @@
 import { FunctionComponent } from "react";
 import DataComponent from "./DataComponent";
 
+const 
+infoFill="../src/assets/images/info-fill.png";
+const 
+paperClipLight2="../src/assets/images/paper-clip.png"
 const YuraComponent: FunctionComponent = () => {
   return (
     <section className="w-[1030px] flex flex-row items-start justify-start relative max-w-full text-left text-base text-black font-inter">
@@ -9,10 +13,10 @@ const YuraComponent: FunctionComponent = () => {
           <div className="h-[294px] w-[1030px] relative shadow-[0px_0px_4px_2px_rgba(124,_124,_124,_0.25)] rounded bg-white box-border hidden max-w-full border-[0.5px] border-solid border-gray" />
           <div className="w-[773.6px] flex flex-col items-start justify-start gap-[11px] max-w-[calc(100%_-_101px)] shrink-0">
             <DataComponent
-              infoFill="/info-fill@2x.png"
-              infoFill1="/info-fill-1@2x.png"
-              infoFill2="/info-fill@2x.png"
-              paperClipLight2="/paper-clip-light-2.svg"
+              infoFill={infoFill}
+              infoFill1={infoFill}
+              infoFill2={infoFill}
+              paperClipLight2={paperClipLight2}
             />
             <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-2 box-border gap-[11px] max-w-full">
               <div className="self-stretch flex flex-row items-end justify-start gap-[6.7px] max-w-full mq925:flex-wrap">
@@ -26,7 +30,7 @@ const YuraComponent: FunctionComponent = () => {
                       className="h-6 w-[26.8px] relative object-cover min-h-[24px]"
                       loading="lazy"
                       alt=""
-                      src="/info-fill-1@2x.png"
+                      src={infoFill}
                     />
                     <div className="flex-1 flex flex-row items-start justify-start gap-[6.7px] min-w-[156px] mq450:flex-wrap">
                       <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border min-w-[135px]">
@@ -38,7 +42,7 @@ const YuraComponent: FunctionComponent = () => {
                         className="h-6 w-[26.8px] relative min-h-[24px]"
                         loading="lazy"
                         alt=""
-                        src="/paper-clip-light.svg"
+                        src={paperClipLight2}
                       />
                     </div>
                   </div>
@@ -55,7 +59,7 @@ const YuraComponent: FunctionComponent = () => {
                       className="w-[26.8px] h-6 relative object-cover"
                       loading="lazy"
                       alt=""
-                      src="/info-fill-1@2x.png"
+                      src={infoFill}
                     />
                   </div>
                 </div>
@@ -70,7 +74,7 @@ const YuraComponent: FunctionComponent = () => {
                       className="h-6 w-[26.8px] relative min-h-[24px]"
                       loading="lazy"
                       alt=""
-                      src="/paper-clip-light.svg"
+                      src={paperClipLight2}
                     />
                   </div>
                 </div>
@@ -94,12 +98,12 @@ const YuraComponent: FunctionComponent = () => {
                           <img
                             className="w-[26.8px] h-6 relative object-cover"
                             alt=""
-                            src="/info-fill-1@2x.png"
+                            src={infoFill}
                           />
                           <img
                             className="w-[26.8px] h-6 relative object-cover"
                             alt=""
-                            src="/info-fill-1@2x.png"
+                            src={infoFill}
                           />
                         </div>
                       </div>
@@ -126,7 +130,7 @@ const YuraComponent: FunctionComponent = () => {
                           <img
                             className="w-[26.8px] h-6 relative object-cover"
                             alt=""
-                            src="/info-fill-1@2x.png"
+                            src={infoFill}
                           />
                         </div>
                       </div>
@@ -146,7 +150,7 @@ const YuraComponent: FunctionComponent = () => {
                           <img
                             className="w-[26.8px] h-6 relative object-cover"
                             alt=""
-                            src="/info-fill-1@2x.png"
+                            src={infoFill}
                           />
                         </div>
                       </div>
@@ -167,7 +171,7 @@ const YuraComponent: FunctionComponent = () => {
                         <img
                           className="w-[26.8px] h-6 relative object-cover"
                           alt=""
-                          src="/info-fill-1@2x.png"
+                          src={infoFill}
                         />
                       </div>
                     </div>
@@ -183,27 +187,27 @@ const YuraComponent: FunctionComponent = () => {
                     <img
                       className="w-[26.8px] h-6 relative"
                       alt=""
-                      src="/paper-clip-light.svg"
+                      src={paperClipLight2}
                     />
                     <img
                       className="w-[26.8px] h-6 relative"
                       alt=""
-                      src="/paper-clip-light.svg"
+                      src={paperClipLight2}
                     />
                     <img
                       className="w-[26.8px] h-6 relative"
                       alt=""
-                      src="/paper-clip-light.svg"
+                      src={paperClipLight2}
                     />
                     <img
                       className="w-[26.8px] h-6 relative"
                       alt=""
-                      src="/paper-clip-light.svg"
+                      src={paperClipLight2}
                     />
                     <img
                       className="w-[26.8px] h-6 relative"
                       alt=""
-                      src="/paper-clip-light.svg"
+                      src={paperClipLight2}
                     />
                   </div>
                 </div>
@@ -218,7 +222,7 @@ const YuraComponent: FunctionComponent = () => {
                     <img
                       className="w-[26.8px] h-6 relative object-cover"
                       alt=""
-                      src="/info-fill-1@2x.png"
+                      src={infoFill}
                     />
                   </div>
                 </div>
@@ -232,7 +236,7 @@ const YuraComponent: FunctionComponent = () => {
                     <img
                       className="h-6 w-[26.8px] relative min-h-[24px]"
                       alt=""
-                      src="/paper-clip-light.svg"
+                      src={paperClipLight2}
                     />
                   </div>
                 </div>
@@ -248,7 +252,7 @@ const YuraComponent: FunctionComponent = () => {
                 <img
                   className="h-6 w-[26.8px] relative object-cover"
                   alt=""
-                  src="/info-fill-1@2x.png"
+                  src={infoFill}
                 />
               </div>
               <div className="w-[240.3px] flex flex-row items-start justify-start gap-[6.7px]">
@@ -260,7 +264,7 @@ const YuraComponent: FunctionComponent = () => {
                 <img
                   className="h-6 w-[26.8px] relative min-h-[24px]"
                   alt=""
-                  src="/paper-clip-light.svg"
+                  src={paperClipLight2}
                 />
               </div>
             </div>

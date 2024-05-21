@@ -94,7 +94,7 @@ const DataComponent: FunctionComponent<DataComponentType> = ({
               className="h-6 w-[26.8px] relative object-cover min-h-[24px]"
               loading="lazy"
               alt=""
-              src="/info-fill-1@2x.png"
+              src={infoFill}
             />
             <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0">
               <div className="self-stretch relative">valor 1</div>
@@ -113,7 +113,7 @@ const DataComponent: FunctionComponent<DataComponentType> = ({
                 className="h-6 w-[26.8px] relative object-cover min-h-[24px]"
                 loading="lazy"
                 alt=""
-                src="/info-fill-1@2x.png"
+                src={infoFill1}
               />
               <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border min-w-[135px]">
                 <div className="self-stretch relative">valor 1</div>
@@ -128,13 +128,13 @@ const DataComponent: FunctionComponent<DataComponentType> = ({
             className="w-[26.8px] h-6 relative"
             loading="lazy"
             alt=""
-            src="/paper-clip-light.svg"
+            src={paperClipLight2}
           />
           <img
             className="w-[26.8px] h-6 relative"
             loading="lazy"
             alt=""
-            src="/paper-clip-light.svg"
+            src={paperClipLight2}
           />
         </div>
         <img
@@ -148,14 +148,14 @@ const DataComponent: FunctionComponent<DataComponentType> = ({
             className="h-6 w-[26.8px] relative"
             loading="lazy"
             alt=""
-            src="/paper-clip-light.svg"
+            src={paperClipLight2}
           />
         </div>
         <img
           className="w-[26.8px] h-6 relative"
           loading="lazy"
           alt=""
-          src="/paper-clip-light.svg"
+          src={paperClipLight2}
         />
       </div>
     </div>
