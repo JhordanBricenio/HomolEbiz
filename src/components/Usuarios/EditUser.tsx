@@ -1,24 +1,30 @@
 import {
-    TextField,
-    Select,
-    InputLabel,
-    MenuItem,
-    FormHelperText,
-    FormControl,
-    Button,
-  } from "@mui/material";
-  
-  function EditUser() {
-    return (
-      <div className="w-full relative bg-whitesmoke overflow-hidden flex flex-col items-start justify-start pt-[90px] px-[118px] pb-9 box-border tracking-[normal] leading-[normal] mq450:pl-5 mq450:pr-5 mq450:box-border mq750:pl-[59px] mq750:pr-[59px] mq750:box-border">
+  TextField,
+  Select,
+  InputLabel,
+  MenuItem,
+  FormHelperText,
+  FormControl,
+  Button,
+} from "@mui/material";
+import Nav from "../Nav/Nav";
+import user from "../../assets/images/user.svg";
+
+function EditUser() {
+  return (
+    <div className="flex flex-row">
+      <div>
+        <Nav/>
+      </div>
+      <div className="w-full relative bg-whitesmoke overflow-hidden flex flex-col items-start justify-start pt-[20px] px-[18px] pb-9 box-border tracking-[normal] leading-[normal] mq450:pl-5 mq450:pr-5 mq450:box-border mq750:pl-[59px] mq750:pr-[59px] mq750:box-border">
         <div className="flex flex-row items-start justify-start py-0 px-[19px]">
           <div className="rounded-8xs bg-cornflowerblue flex flex-row items-start justify-start pt-6 pb-[23px] pr-[23px] pl-6 z-[1]">
             <div className="h-[87px] w-[87px] relative rounded-8xs bg-cornflowerblue hidden" />
             <img
-              className="h-10 w-10 relative z-[1]"
+              className="h-10 w-10 relative z-[1] "
               loading="lazy"
               alt=""
-              src="/group-62.svg"
+              src={user}
             />
           </div>
         </div>
@@ -40,7 +46,7 @@ import {
                   variant="standard"
                   sx={{
                     "& .MuiInputBase-root": { height: "56px" },
-                    width: "1153px",
+                    width: "1030px",
                   }}
                 />
               </div>
@@ -311,7 +317,7 @@ import {
                       width: "204px",
                     }}
                   />
-  
+
                   <TextField
                     className="[border:none] bg-[transparent] h-14 flex-1 min-w-[288px] max-w-full"
                     color="primary"
@@ -363,8 +369,8 @@ import {
           </section>
         </main>
       </div>
-    );
-  }
-  
-  export default EditUser;
-  
+    </div>
+  );
+}
+
+export default EditUser;

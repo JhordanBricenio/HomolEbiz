@@ -6,18 +6,26 @@ import Procesos from "./components/Procesos/ProcesosComponent";
 import ProcesosEdicion from "./components/ProcesosEdicion/ProcesosEdicionComponent";
 import EditOrg from "./components/Organizacion/OrganizacionEdit";
 import BuscarUser from "./components/Usuarios/BuscarUser";
+import EditUser from "./components/Usuarios/EditUser";
+import Configuration from "./components/Homologacion/Configuaration";
+import ListProveedor from "./components/Homologacion/ListProveedor/ListProveedor";
+import Esourcing from "./components/Homologacion/eSourcing/Esourcing";
+import Aprobacion from "./components/Homologacion/Aprobacion/Compra";
 
 function App() {
   return (
     <div>
-      <LoginRegistro />
+      {/*<LoginRegistro />*/}
       <Routes>
       <Route path="/" element={<Nav/>} />
         <Route path="/editOrg" element={<EditOrg />} />
-        <Route path="/searchUsers" element={<BuscarUser />} />
-        <Route path="/perfil" element={<PerfilN />} />
-        <Route path="/procesos" element={<Procesos />} />
-        <Route path="/procesos-edicion" element={<ProcesosEdicion />} />
+        <Route path="/searchUser" element={<BuscarUser />} />
+        <Route path="/editUser" element={<EditUser />} />
+        <Route path="/homologacion/config" element={<Configuration />} />
+        <Route path="/homologacion/listaprovee" element={<ListProveedor />} />
+        <Route path="/homologacion/creacionrq" element={<Esourcing/>} />
+        <Route path="/homologacion/procesos" element={<Procesos/>} />
+        <Route path="/homologacion/aprobacion" element={<Aprobacion/>} />
       </Routes>
     </div>
   );

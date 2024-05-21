@@ -1,19 +1,15 @@
-import {
-  Box,
-  Button,
-  List,
-  Modal,
-} from "@mui/material";
+import { Button } from "@mui/material";
 import b2mining from "../../assets/images/b2mining.png";
-import React from "react";
+import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 
 function Nav() {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const [showHomlOptions, setShowHomlOptions] = useState(false);
+  const [showUserOptions, setShowUserOptions] = useState(false);
 
- 
+  const toggleHomloptions = () => setShowHomlOptions(!showHomlOptions);
+  const toggleUserOptions = () => setShowUserOptions(!showUserOptions);
+
   return (
     <div>
       <div className="w-[281px] bg-steelblue-100 flex flex-col items-start justify-start pt-0 px-0 pb-60 box-border gap-[55px] text-center text-base text-white font-roboto mq450:gap-[27px] mq450:pb-[157px] mq450:box-border mq825:pb-[242px] mq825:box-border">
@@ -58,18 +54,42 @@ function Nav() {
         <div className="self-stretch flex flex-row items-start justify-start py-0 px-[19px]">
           <div className="flex-1 flex flex-col items-start justify-start gap-[33px]">
             <nav className="m-0 flex flex-col gap-[20px] text-base text-white font-roboto">
-              <Link
-                className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
-                to="/editOrg"
-              >
-                Organización
-              </Link>
-              <Link
-                className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
-                to="/searchUsers"
-              >
-                U Usuarios
-              </Link>
+              <ul className="">
+                <li className="mb-4">
+                  <div className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left cursor-pointer">
+                    Organización
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left cursor-pointer"
+                    onClick={toggleUserOptions}
+                  >
+                    Usuarios
+                  </div>
+                  {showUserOptions && (
+                    <ul className="pl-4 space-y-1">
+                      <li>
+                        <Link
+                          className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
+                          to="/editUser"
+                        >
+                          Editar Usuario
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
+                          to="/searchUser"
+                        >
+                          Buscar Usuario
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+              </ul>
               <a
                 href="#"
                 className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
@@ -106,41 +126,61 @@ function Nav() {
               >
                 E Evaluación
               </a>
-              <a
-                className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
-                onClick={handleOpen}
-              >
-                Homologación
-              </a>
+              <ul className="">
+                <li className="mb-4">
+                  <div className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left cursor-pointer">
+                    Organización
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left cursor-pointer"
+                    onClick={toggleHomloptions}
+                  >
+                    Homologación
+                  </div>
+                  {showHomlOptions && (
+                    <ul className="pl-4 space-y-1">
+                      <li>
+                        <Link
+                          className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
+                          to="/homologacion/config"
+                        >
+                          Configuración
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
+                          to="/homologacion/listaprovee"
+                        >
+                          Lista de Proveedores
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
+                          to="/homologacion/creacionrq"
+                        >
+                          Creación de RQ
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
+                          to="/homologacion/procesos"
+                        >
+                          Procesos
+                        </Link>
+                      </li> 
+                    </ul>
+                  )}
+                </li>
+              </ul>
             </nav>
             <Outlet />
           </div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <Modal open={open} onClose={handleClose}>
-            <Box
-              //Ubicar al costado del menu lateral o sea al costado de homologacion
-              sx={{
-                position: "absolute",
-                top: "90%",
-                left: "30%",
-                transform: "translate(-50%, -50%)",
-                width: 300,
-                bgcolor: "background.paper",
-                background: "#fff",
-                border: "2px solid #000",
-                boxShadow: 24,
-                p: 4,
-              }}
-            >
-              <List>
-                <Link to="/">Home</Link>
-                <Link to="/">Home</Link>
-              </List>
-            </Box>
-          </Modal>
         </div>
       </div>
     </div>
