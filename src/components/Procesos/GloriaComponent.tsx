@@ -23,7 +23,7 @@ const GloriaComponent: FunctionComponent = () => {
               infoFill="../src/assets/images/info-fill.png"
               infoFill1="../src/assets/images/info-fill.png"
               infoFill2="../src/assets/images/info-fill.png"
-              paperClipLight2="../assets/images/paper-clip.png"
+              paperClipLight2="../src/assets/images/paper-clip.png"
             // frameDivDebugCommit="unset"
           />
           <div className="flex flex-row items-end justify-start gap-[6.7px] shrink-0 [debug_commit:bf4bc93] max-w-full mq925:flex-wrap">
@@ -299,10 +299,10 @@ const GloriaComponent: FunctionComponent = () => {
         <div className="h-[234px] w-[81.3px] flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border">
           <div className="self-stretch h-[507px] flex flex-col items-start justify-start pt-0 px-0 pb-[316px] box-border gap-[23px]">
             <div className="self-stretch h-[55px] flex flex-row flex-wrap items-start justify-start gap-[15px_4.8px] shrink-0 [debug_commit:bf4bc93]">
-              <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
-              <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
-              <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
-              <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
+              <div className="h-5 w-[22px] relative rounded bg-gold z-[1]" />
+              <div className="h-5 w-[22px] relative rounded bg-gold z-[1]" />
+              <div className="h-5 w-[22px] relative rounded bg-gold z-[1]" />
+              <div className="h-5 w-[22px] relative rounded bg-gold z-[1]" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
             </div>
@@ -315,22 +315,22 @@ const GloriaComponent: FunctionComponent = () => {
               <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
             </div>
             <div className="flex flex-row items-start justify-start pt-0 px-0 pb-4 gap-[6.7px] shrink-0 [debug_commit:bf4bc93]">
+              <div className="h-5 w-[22.6px] relative rounded bg-red z-[1]" />
               <div className="h-5 w-[22.6px] relative rounded bg-limegreen z-[1]" />
-              <div className="h-5 w-[22.6px] relative rounded bg-limegreen z-[1]" />
-              <div className="h-5 w-[22.6px] relative rounded bg-limegreen z-[1]" />
+              <div className="h-5 w-[22.6px] relative rounded bg-red z-[1]" />
             </div>
             <div className="self-stretch h-[412px] flex flex-row flex-wrap items-start justify-start gap-[29px_4.8px] shrink-0 [debug_commit:bf4bc93]">
+              <div className="h-5 w-[22px] relative rounded bg-gold z-[1]" />
+              <div className="h-5 w-[22px] relative rounded bg-red z-[1]" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
-              <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
-              <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen" />
-              <div className="h-5 w-[22px] relative rounded bg-limegreen" />
-              <div className="h-5 w-[22px] relative rounded bg-limegreen" />
-              <div className="h-5 w-[22px] relative rounded bg-limegreen" />
+              <div className="h-5 w-[22px] relative rounded bg-gold" />
+              <div className="h-5 w-[22px] relative rounded bg-gold" />
+              <div className="h-5 w-[22px] relative rounded bg-gold" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen" />

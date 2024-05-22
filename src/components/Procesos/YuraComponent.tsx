@@ -273,39 +273,39 @@ const YuraComponent: FunctionComponent = () => {
             <div className="self-stretch flex flex-col items-start justify-start gap-[32px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[23px]">
                 <div className="self-stretch h-[55px] flex flex-row flex-wrap items-start justify-start relative gap-[15px_4.8px]">
-                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[0px] rounded bg-limegreen" />
-                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[29.4px] rounded bg-limegreen" />
-                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[58.7px] rounded bg-limegreen" />
-                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[35px] left-[0px] rounded bg-limegreen" />
+                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[0px] rounded bg-red" />
+                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[29.4px] rounded bg-red" />
+                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[58.7px] rounded bg-red" />
+                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[35px] left-[0px] rounded bg-red" />
                   <div className="h-5 w-[22.6px] absolute !m-[0] top-[35px] left-[29.4px] rounded bg-limegreen" />
                   <div className="h-5 w-[22.6px] absolute !m-[0] top-[35px] left-[58.7px] rounded bg-limegreen" />
                 </div>
                 <div className="self-stretch h-[61px] flex flex-row flex-wrap items-start justify-start relative gap-[21px_4.8px]">
                   <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[0px] rounded bg-limegreen" />
-                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[29.4px] rounded bg-limegreen" />
-                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[58.7px] rounded bg-limegreen" />
-                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[41px] left-[0px] rounded bg-limegreen" />
+                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[29.4px] rounded bg-gold" />
+                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[58.7px] rounded bg-gold" />
+                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[41px] left-[0px] rounded bg-gold" />
                   <div className="h-5 w-[22.6px] absolute !m-[0] top-[41px] left-[29.4px] rounded bg-limegreen" />
-                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[41px] left-[58.7px] rounded bg-limegreen" />
+                  <div className="h-5 w-[22.6px] absolute !m-[0] top-[41px] left-[58.7px] rounded bg-gold" />
                 </div>
               </div>
               <div className="flex flex-row items-start justify-start pt-0 px-0 pb-[7px] gap-[6.7px]">
-                <div className="h-5 w-[22.6px] relative rounded bg-limegreen" />
-                <div className="h-5 w-[22.6px] relative rounded bg-limegreen" />
-                <div className="h-5 w-[22.6px] relative rounded bg-limegreen" />
+                <div className="h-5 w-[22.6px] relative rounded bg-gold" />
+                <div className="h-5 w-[22.6px] relative rounded bg-gold" />
+                <div className="h-5 w-[22.6px] relative rounded bg-red" />
               </div>
               <div className="self-stretch h-[412px] flex flex-row flex-wrap items-start justify-start relative gap-[29px_4.8px]">
-                <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[0px] rounded bg-limegreen" />
-                <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[29.4px] rounded bg-limegreen" />
-                <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[58.7px] rounded bg-limegreen" />
+                <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[0px] rounded bg-red" />
+                <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[29.4px] rounded bg-red" />
+                <div className="h-5 w-[22.6px] absolute !m-[0] top-[0px] left-[58.7px] rounded bg-red" />
                 <div className="h-5 w-[22.6px] absolute !m-[0] top-[49px] left-[0px] rounded bg-limegreen" />
                 <div className="h-5 w-[22.6px] absolute !m-[0] top-[49px] left-[29.4px] rounded bg-limegreen" />
                 <div className="h-5 w-[22.6px] absolute !m-[0] top-[49px] left-[58.7px] rounded bg-limegreen" />
                 <div className="h-5 w-[22.6px] absolute !m-[0] top-[98px] left-[0px] rounded bg-limegreen" />
-                <div className="h-5 w-[22.6px] absolute !m-[0] top-[98px] left-[29.4px] rounded bg-limegreen" />
-                <div className="h-5 w-[22.6px] absolute !m-[0] top-[98px] left-[58.7px] rounded bg-limegreen" />
-                <div className="h-5 w-[22.6px] absolute !m-[0] top-[147px] left-[0px] rounded bg-limegreen" />
-                <div className="h-5 w-[22.6px] absolute !m-[0] top-[147px] left-[29.4px] rounded bg-limegreen" />
+                <div className="h-5 w-[22.6px] absolute !m-[0] top-[98px] left-[29.4px] rounded bg-gold" />
+                <div className="h-5 w-[22.6px] absolute !m-[0] top-[98px] left-[58.7px] rounded bg-gold" />
+                <div className="h-5 w-[22.6px] absolute !m-[0] top-[147px] left-[0px] rounded bg-gold" />
+                <div className="h-5 w-[22.6px] absolute !m-[0] top-[147px] left-[29.4px] rounded bg-gold" />
                 <div className="h-5 w-[22.6px] absolute !m-[0] top-[147px] left-[58.7px] rounded bg-limegreen" />
                 <div className="h-5 w-[22.6px] absolute !m-[0] top-[196px] left-[0px] rounded bg-limegreen" />
                 <div className="h-5 w-[22.6px] absolute !m-[0] top-[196px] left-[29.4px] rounded bg-limegreen" />
