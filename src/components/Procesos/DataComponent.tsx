@@ -36,12 +36,6 @@ const DataComponent: FunctionComponent<DataComponentType> = ({
             </div>
           </div>
           <div className="w-[262.7px] flex flex-row items-start justify-start gap-[29.1px] shrink-0 [debug_commit:bf4bc93]">
-            <img
-              className="h-6 w-[26.8px] relative object-cover min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src={infoFill}
-            />
             <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0">
               <div className="self-stretch relative">valor 1</div>
             </div>
@@ -54,12 +48,6 @@ const DataComponent: FunctionComponent<DataComponentType> = ({
             </div>
           </div>
           <div className="w-[262.7px] flex flex-row items-start justify-start gap-[29.1px] shrink-0 [debug_commit:bf4bc93]">
-            <img
-              className="h-6 w-[26.8px] relative object-cover min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src={infoFill1}
-            />
             <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0">
               <div className="self-stretch relative">valor 1</div>
             </div>
@@ -71,12 +59,6 @@ const DataComponent: FunctionComponent<DataComponentType> = ({
           </div>
           <div className="w-[262.7px] flex flex-col items-start justify-end pt-0 px-0 pb-1.5 box-border">
             <div className="self-stretch flex flex-row items-start justify-start gap-[29.1px] shrink-0 [debug_commit:bf4bc93] mq450:flex-wrap">
-              <img
-                className="h-6 w-[26.8px] relative object-cover min-h-[24px]"
-                loading="lazy"
-                alt=""
-                src={infoFill2}
-              />
               <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border min-w-[135px]">
                 <div className="self-stretch relative">valor 1</div>
               </div>
@@ -90,12 +72,6 @@ const DataComponent: FunctionComponent<DataComponentType> = ({
             </div>
           </div>
           <div className="w-[262.7px] flex flex-row items-start justify-start gap-[29.1px] shrink-0 [debug_commit:bf4bc93]">
-            <img
-              className="h-6 w-[26.8px] relative object-cover min-h-[24px]"
-              loading="lazy"
-              alt=""
-              src={infoFill}
-            />
             <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0">
               <div className="self-stretch relative">valor 1</div>
             </div>
@@ -109,12 +85,7 @@ const DataComponent: FunctionComponent<DataComponentType> = ({
           </div>
           <div className="w-[262.7px] flex flex-col items-start justify-end pt-0 px-0 pb-4 box-border">
             <div className="self-stretch flex flex-row items-start justify-start gap-[29.1px] shrink-0 [debug_commit:bf4bc93] mq450:flex-wrap">
-              <img
-                className="h-6 w-[26.8px] relative object-cover min-h-[24px]"
-                loading="lazy"
-                alt=""
-                src={infoFill1}
-              />
+              
               <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border min-w-[135px]">
                 <div className="self-stretch relative">valor 1</div>
               </div>

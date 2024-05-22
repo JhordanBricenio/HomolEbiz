@@ -11,6 +11,7 @@ import Configuration from "./components/Homologacion/Configuaration";
 import ListProveedor from "./components/Homologacion/ListProveedor/ListProveedor";
 import Esourcing from "./components/Homologacion/eSourcing/Esourcing";
 import Aprobacion from "./components/Homologacion/Aprobacion/Compra";
+import Process from "./components/Process/Process";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Route path="/homologacion/config" element={<Configuration />} />
         <Route path="/homologacion/listaprovee" element={<ListProveedor />} />
         <Route path="/homologacion/creacionrq" element={<Esourcing/>} />
-        <Route path="/homologacion/procesos" element={<Procesos/>} />
+        <Route path="/homologacion/procesos" element={<Process/>} />
         <Route path="/homologacion/aprobacion" element={<Aprobacion/>} />
       </Routes>
     </div>

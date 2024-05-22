@@ -33,12 +33,6 @@ const GloriaComponent: FunctionComponent = () => {
             </div>
             <div className="w-[296.2px] flex flex-col items-start justify-end pt-0 px-0 pb-1.5 box-border">
               <div className="self-stretch flex flex-row items-start justify-start gap-[29.1px] shrink-0 [debug_commit:bf4bc93] mq450:flex-wrap">
-                <img
-                  className="h-6 w-[26.8px] relative object-cover min-h-[24px] z-[1]"
-                  loading="lazy"
-                  alt=""
-                  src={infoFill}
-                />
                 <div className="flex-1 flex flex-row items-start justify-start gap-[6.7px] min-w-[156px] mq450:flex-wrap">
                   <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border min-w-[135px]">
                     <div className="self-stretch h-[19px] relative inline-block z-[1]">
@@ -62,12 +56,7 @@ const GloriaComponent: FunctionComponent = () => {
                   Bienes y Servicios
                 </div>
                 <div className="flex flex-col items-start justify-end pt-0 px-0 pb-1.5">
-                  <img
-                    className="w-[26.8px] h-6 relative object-cover"
-                    loading="lazy"
-                    alt=""
-                    src={infoFill}
-                  />
+                  
                 </div>
               </div>
               <div className="w-[240.3px] flex flex-col items-start justify-end pt-0 px-0 pb-1.5 box-border">
@@ -93,12 +82,6 @@ const GloriaComponent: FunctionComponent = () => {
                   Contrataciones del Estado con sanción vigente
                 </div>
                 <div className="flex flex-col items-start justify-end pt-0 px-0 pb-1.5">
-                  <img
-                    className="w-[26.8px] h-6 relative object-cover"
-                    loading="lazy"
-                    alt=""
-                    src={infoFill}
-                  />
                 </div>
               </div>
               <div className="w-[240.3px] flex flex-col items-start justify-end pt-0 px-0 pb-1.5 box-border">
@@ -124,12 +107,7 @@ const GloriaComponent: FunctionComponent = () => {
                   Empresa y/o Representantes Legales
                 </div>
                 <div className="flex flex-col items-start justify-end pt-0 px-0 pb-1.5">
-                  <img
-                    className="w-[26.8px] h-6 relative object-cover"
-                    loading="lazy"
-                    alt=""
-                    src={infoFill}
-                  />
+
                 </div>
               </div>
               <div className="w-[240.3px] flex flex-col items-start justify-end pt-0 px-0 pb-1.5 box-border">
@@ -301,7 +279,13 @@ const GloriaComponent: FunctionComponent = () => {
             <div className="self-stretch h-[55px] flex flex-row flex-wrap items-start justify-start gap-[15px_4.8px] shrink-0 [debug_commit:bf4bc93]">
               <div className="h-5 w-[22px] relative rounded bg-gold z-[1]" />
               <div className="h-5 w-[22px] relative rounded bg-gold z-[1]" />
-              <div className="h-5 w-[22px] relative rounded bg-gold z-[1]" />
+              <div><div className="h-5 w-[22px] relative rounded bg-gold z-[1]" /><img
+                    className="w-[26.8px] h-6 relative object-cover"
+                    loading="lazy"
+                    alt=""
+                    src={infoFill}
+                  /></div>
+              
               <div className="h-5 w-[22px] relative rounded bg-gold z-[1]" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />
               <div className="h-5 w-[22px] relative rounded bg-limegreen z-[1]" />

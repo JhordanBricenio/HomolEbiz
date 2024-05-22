@@ -26,12 +26,6 @@ const YuraComponent: FunctionComponent = () => {
                 </div>
                 <div className="w-[296.2px] flex flex-col items-start justify-end pt-0 px-0 pb-1.5 box-border">
                   <div className="self-stretch flex flex-row items-start justify-start gap-[29.1px] shrink-0 [debug_commit:bf4bc93] mq450:flex-wrap">
-                    <img
-                      className="h-6 w-[26.8px] relative object-cover min-h-[24px]"
-                      loading="lazy"
-                      alt=""
-                      src={infoFill}
-                    />
                     <div className="flex-1 flex flex-row items-start justify-start gap-[6.7px] min-w-[156px] mq450:flex-wrap">
                       <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border min-w-[135px]">
                         <div className="self-stretch h-[19px] relative flex items-center">
@@ -95,16 +89,8 @@ const YuraComponent: FunctionComponent = () => {
                       </div>
                       <div className="flex flex-col items-start justify-end pt-0 px-0 pb-1.5">
                         <div className="flex flex-col items-start justify-start gap-[25px]">
-                          <img
-                            className="w-[26.8px] h-6 relative object-cover"
-                            alt=""
-                            src={infoFill}
-                          />
-                          <img
-                            className="w-[26.8px] h-6 relative object-cover"
-                            alt=""
-                            src={infoFill}
-                          />
+                          
+                          
                         </div>
                       </div>
                     </div>
@@ -127,11 +113,7 @@ const YuraComponent: FunctionComponent = () => {
                           por la Empresa y/o Representantes Legales
                         </div>
                         <div className="flex flex-col items-start justify-end pt-0 px-0 pb-1.5">
-                          <img
-                            className="w-[26.8px] h-6 relative object-cover"
-                            alt=""
-                            src={infoFill}
-                          />
+                          
                         </div>
                       </div>
                       <div className="w-[206.8px] flex flex-col items-start justify-end pt-0 px-0 pb-[9px] box-border">
@@ -147,11 +129,7 @@ const YuraComponent: FunctionComponent = () => {
                           cometidos por la Empresa y/o Representantes Legales
                         </div>
                         <div className="flex flex-col items-start justify-end pt-0 px-0 pb-1.5">
-                          <img
-                            className="w-[26.8px] h-6 relative object-cover"
-                            alt=""
-                            src={infoFill}
-                          />
+                          
                         </div>
                       </div>
                       <div className="w-[206.8px] flex flex-col items-start justify-end pt-0 px-0 pb-[9px] box-border">
@@ -219,11 +197,7 @@ const YuraComponent: FunctionComponent = () => {
                     por la Empresa y/o Representantes Legales
                   </div>
                   <div className="flex flex-col items-start justify-end pt-0 px-0 pb-1.5">
-                    <img
-                      className="w-[26.8px] h-6 relative object-cover"
-                      alt=""
-                      src={infoFill}
-                    />
+                    
                   </div>
                 </div>
                 <div className="w-[240.3px] flex flex-col items-start justify-end pt-0 px-0 pb-1.5 box-border">
@@ -249,11 +223,7 @@ const YuraComponent: FunctionComponent = () => {
                     Listado de Los Mejores Lugares Para Trabajar en Perú 2024
                   </div>
                 </div>
-                <img
-                  className="h-6 w-[26.8px] relative object-cover"
-                  alt=""
-                  src={infoFill}
-                />
+                
               </div>
               <div className="w-[240.3px] flex flex-row items-start justify-start gap-[6.7px]">
                 <div className="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0">
