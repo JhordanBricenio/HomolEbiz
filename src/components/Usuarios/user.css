@@ -1,0 +1,10 @@
+.circular-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 23px; /* Ajusta el tamaño según tus necesidades */
+    height: 23px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%;
+    background-color: #2299E4; /* Ajusta el color de fondo según tus necesidades */
+  }
+  

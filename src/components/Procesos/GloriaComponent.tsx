@@ -353,7 +353,7 @@ const GloriaComponent: FunctionComponent = () => {
       </div>
       <div className="absolute top-[0px] left-[29.7px] w-[81.2px] h-10 z-[2] text-sm text-white">
         <div
-          className="absolute top-[0px] left-[calc(50%_-_40.6px)] rounded bg-darkslateblue-200 w-full h-full"
+          className="absolute top-[0px] left-[calc(50%_-_40.6px)] rounded bg-darkslateblue w-full h-full"
           data-scroll-to="rectangle"
         />
         <div

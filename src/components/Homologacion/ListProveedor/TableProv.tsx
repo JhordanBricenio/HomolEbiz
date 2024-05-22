@@ -6,7 +6,8 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { Radio, Rating } from "@mui/material";
-import ".//../eSourcing/esourcing.css";
+import "./../eSourcing/esourcing.css";
+import "./listprov.css"
 import { Link } from "react-router-dom";
 
 function createData(ruc: string, name: string, homol: string) {
@@ -41,18 +42,28 @@ export default function TableProv() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
+          {rows.map((row, index) => (
             <TableRow key={row.ruc}>
               <TableCell className="items-center" component="th" scope="row">
-                <Radio color="success" />
+                {index % 2 === 0 ? (
+                  <Radio color="success" />
+                ) : (
+                  <Radio color="warning" />
+                )}
               </TableCell>
               <TableCell>
                 <Rating name="read-only" value={2.5} precision={0.5} />
               </TableCell>
               <TableCell>
-                <Link className="text-blue-400 underline" to="/homologacion/aprobacion">Proveedor 1</Link>
+                <Link
+                  className="text-blue-400 underline"
+                  to="/homologacion/aprobacion"
+                >
+                  {row.name}
+                </Link>
               </TableCell>
               <TableCell>
+                { index % 2 === 0 ? ( 
                 <div className="circle">
                   <svg
                     className="checkmark"
@@ -72,7 +83,28 @@ export default function TableProv() {
                       d="M14.1 27.2l7.1 7.2 16.7-16.8"
                     />
                   </svg>
+                </div>):(
+                  <div className="circle1">
+                  <svg
+                    className="checkmark1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 52 52"
+                  >
+                    <circle
+                      className="checkmark__circle1"
+                      cx="26"
+                      cy="26"
+                      r="25"
+                      fill="none"
+                    />
+                    <path
+                      className="checkmark__check1"
+                      fill="none"
+                      d="M16 16 36 36 M36 16 16 36"
+                    />
+                  </svg>
                 </div>
+                )}
               </TableCell>
               <TableCell>
                 <a href=""> 04/19/2020</a>

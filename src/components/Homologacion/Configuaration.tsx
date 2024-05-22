@@ -29,12 +29,12 @@ const Configuration = () => {
             <div className="h-[47px] w-[209px] relative rounded-8xs bg-darkslateblue hidden" />
             <div className="relative z-[2]">Homologación: Configuración</div>
           </div>
-          <div className="!m-[0] absolute top-[-29px] right-[23px] rounded-8xs bg-darkslateblue flex flex-row items-start justify-start pt-[15px] px-[26px] pb-4 z-[1]">
+          {/* <div className="!m-[0] absolute top-[-29px] right-[23px] rounded-8xs bg-darkslateblue flex flex-row items-start justify-start pt-[15px] px-[26px] pb-4 z-[1]">
             <div className="h-[47px] w-[165px] relative rounded-8xs bg-darkslateblue hidden" />
             <div className="relative inline-block min-w-[110px] z-[2]">
               Usuario YURA
             </div>
-          </div>
+          </div> */}
           <section className="flex-1 rounded-8xs bg-white flex flex-col items-end justify-start pt-[74px] pb-[35px] pr-10 pl-[13px] box-border gap-[101px] max-w-full mq450:gap-[25px] mq450:pt-[31px] mq450:pb-5 mq450:box-border mq750:gap-[50px] mq1050:pt-12 mq1050:pb-[23px] mq1050:box-border">
             <div className="w-[1203px] h-[780px] relative rounded-8xs bg-white hidden max-w-full" />
             <form className="m-0 self-stretch flex flex-col items-start justify-start gap-[65px] max-w-full mq750:gap-[16px] mq1150:gap-[32px]">

@@ -5,17 +5,11 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import { Autocomplete, Stack, TextField } from "@mui/material";
+import { Checkbox } from "@mui/material";
 
 function createData(ruc: number, name: string, homol: string) {
   return { ruc, name, homol };
 }
-
-const top100Films = [
-  { title: "Usuario 1"},
-  { title: "Usuario 2" },
-  { title: "Usuario 3" }
-];
 
 const rows = [
   createData(1828383121, "Variable S1", "hhh"),
@@ -27,7 +21,7 @@ const rows = [
   createData(1828383121, "Variable S7", "hh"),
   createData(1828383121, "Variable S8", "hh"),
 ];
-
+const label = { inputProps: { "aria-label": "Checkbox demo" } };
 export default function TableHomol() {
   return (
     <TableContainer component={Paper}>
@@ -38,14 +32,14 @@ export default function TableHomol() {
             <TableCell style={{ color: "#ffffff" }}>Predefinidas</TableCell>
             <TableCell style={{ color: "#ffffff" }}>Vencimiento</TableCell>
             <TableCell style={{ color: "#ffffff" }}>Descripción</TableCell>
-            <TableCell style={{ color: "#ffffff" }}>Aprovador</TableCell>
+            <TableCell style={{ color: "#ffffff" }}>Área Responsable</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
+          {rows.map((row, index) => (
             <TableRow key={row.ruc}>
               <TableCell component="th" scope="row">
-                <input type="checkbox" />
+                <Checkbox {...label} defaultChecked />
               </TableCell>
               <TableCell>{row.name}</TableCell>
               <TableCell>
@@ -53,9 +47,42 @@ export default function TableHomol() {
                   1 año
                 </a>
               </TableCell>
-              <TableCell>Lorem ipsum dolor sit.</TableCell>
               <TableCell>
-              <Stack spacing={2}>
+                {index %2 === 0 ? (
+                  <div>Información Fiscal del Contribuyente</div>
+                ) : (
+                  <div>Información de Representantes Legales</div>
+                )}
+              </TableCell>
+              <TableCell>
+                <div className="flex flex-row gap-3">
+                  <div>
+                    <input type="radio" />
+                    <label htmlFor="">Compras</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" />
+                    <label htmlFor="">Finanzas</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" />
+                    <label htmlFor="">Auditoría</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" />
+                    <label htmlFor="">Compliance</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" />
+                    <label htmlFor="">Manager</label>
+                  </div>
+                </div>
+
+                {/* <Stack spacing={2}>
                   <Autocomplete
                     multiple
                     options={top100Films}
@@ -67,7 +94,7 @@ export default function TableHomol() {
                       />
                     )}
                   />
-                </Stack>
+                </Stack> */}
               </TableCell>
             </TableRow>
           ))}

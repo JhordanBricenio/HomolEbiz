@@ -58,7 +58,7 @@ const CompanyInfo: FunctionComponent = () => {
               </div>
             </div>
             <div className="self-stretch shadow-[0px_0px_4px_2px_rgba(124,_124,_124,_0.25)] rounded bg-white box-border flex flex-row items-start justify-start pt-[45px] px-6 pb-[26px] max-w-full z-[1] mt-[-20px] text-base text-black border-[0.5px] border-solid border-gray">
-              <div className="h-[213px] w-[357px] relative shadow-[0px_0px_4px_2px_rgba(124,_124,_124,_0.25)] rounded bg-white box-border hidden max-w-full border-[0.5px] border-solid border-gray" />
+              <div className="h-[213px] w-[257px] relative shadow-[0px_0px_4px_2px_rgba(124,_124,_124,_0.25)] rounded bg-white box-border hidden max-w-full border-[0.5px] border-solid border-gray" />
               <div className="flex-1 relative z-[1]">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
@@ -176,7 +176,7 @@ const CompanyInfo: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="w-[357px] flex flex-col items-start justify-start pt-0 px-0 pb-12 box-border min-w-[357px] min-h-[239px] max-w-full text-sm text-white lg:flex-1 mq750:min-w-full">
+      <div className="w-[157px] flex flex-col items-start justify-start pt-0 px-0 pb-12 box-border min-w-[357px] min-h-[239px] max-w-full text-sm text-white lg:flex-1 mq750:min-w-full">
         <div className="self-stretch flex flex-col items-start justify-start max-w-full">
           <div className="w-[133px] flex flex-row items-start justify-start py-0 px-[30px] box-border">
             <div className="flex-1 rounded bg-darkslateblue flex flex-row items-start justify-start pt-[11px] pb-3 pr-5 pl-[21px] z-[2]">
@@ -187,8 +187,8 @@ const CompanyInfo: FunctionComponent = () => {
             </div>
           </div>
           <div className="self-stretch shadow-[0px_0px_4px_2px_rgba(124,_124,_124,_0.25)] rounded bg-white box-border flex flex-row flex-wrap items-center justify-center pt-10 px-[30px] pb-[30px] gap-[14px] max-w-full z-[1] mt-[-20px] text-center text-base text-cornflowerblue border-[0.5px] border-solid border-gray">
-            <div className="h-[171px] w-[357px] relative shadow-[0px_0px_4px_2px_rgba(124,_124,_124,_0.25)] rounded bg-white box-border hidden max-w-full border-[0.5px] border-solid border-gray" />
-            <div className="flex-1 flex flex-row items-start justify-start gap-[8px] mq450:flex-wrap">
+            <div className="h-[171px] w-[157px] relative shadow-[0px_0px_4px_2px_rgba(124,_124,_124,_0.25)] rounded bg-white box-border hidden max-w-full border-[0.5px] border-solid border-gray" />
+            <div className="flex-1 flex flex-col items-start justify-start gap-[8px] mq450:flex-wrap">
               <div className="flex-1 bg-whitesmoke flex flex-row items-start justify-start py-0.5 pr-0.5 pl-[3px] box-border min-w-[72px] max-w-[78px] z-[1]">
                 <div className="h-[23px] w-[78px] relative bg-whitesmoke hidden" />
                 <div className="flex-1 relative inline-block min-w-[72.6px] z-[1]">
@@ -214,54 +214,8 @@ const CompanyInfo: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[324px] flex flex-row items-start justify-start py-0 px-[37px] box-border max-w-full">
-              <div className="flex-1 flex flex-row items-start justify-start gap-[8px] mq450:flex-wrap">
-                <div className="flex-1 bg-whitesmoke flex flex-row items-start justify-start py-0.5 pr-0.5 pl-[3px] box-border min-w-[58px] z-[1]">
-                  <div className="h-[23px] w-[78px] relative bg-whitesmoke hidden" />
-                  <div className="flex-1 relative inline-block min-w-[72.6px] z-[1]">
-                    Tag1Tag1
-                  </div>
-                </div>
-                <div className="flex-1 bg-whitesmoke flex flex-row items-start justify-start py-0.5 pr-0.5 pl-[3px] box-border min-w-[58px] z-[1]">
-                  <div className="h-[23px] w-[78px] relative bg-whitesmoke hidden" />
-                  <div className="flex-1 relative inline-block min-w-[72.6px] z-[1]">
-                    Tag1Tag1
-                  </div>
-                </div>
-                <div className="flex-1 bg-whitesmoke flex flex-row items-start justify-start py-0.5 pr-0.5 pl-[3px] box-border min-w-[58px] z-[1]">
-                  <div className="h-[23px] w-[78px] relative bg-whitesmoke hidden" />
-                  <div className="flex-1 relative inline-block min-w-[72.6px] z-[1]">
-                    Tag1Tag1
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex-1 flex flex-row items-start justify-start gap-[8px] mq450:flex-wrap">
-              <div className="flex-1 bg-whitesmoke flex flex-row items-start justify-start py-0.5 pr-0.5 pl-[3px] box-border min-w-[72px] max-w-[78px] z-[1]">
-                <div className="h-[23px] w-[78px] relative bg-whitesmoke hidden" />
-                <div className="flex-1 relative inline-block min-w-[72.6px] z-[1]">
-                  Tag1Tag1
-                </div>
-              </div>
-              <div className="flex-1 bg-whitesmoke flex flex-row items-start justify-start py-0.5 pr-0.5 pl-[3px] box-border min-w-[72px] max-w-[78px] z-[1]">
-                <div className="h-[23px] w-[78px] relative bg-whitesmoke hidden" />
-                <div className="flex-1 relative inline-block min-w-[72.6px] z-[1]">
-                  Tag1Tag1
-                </div>
-              </div>
-              <div className="flex-1 bg-whitesmoke flex flex-row items-start justify-start py-0.5 pr-0.5 pl-[3px] box-border min-w-[72px] max-w-[78px] z-[1]">
-                <div className="h-[23px] w-[78px] relative bg-whitesmoke hidden" />
-                <div className="flex-1 relative inline-block min-w-[72.6px] z-[1]">
-                  Tag1Tag1
-                </div>
-              </div>
-              <div className="flex-1 bg-whitesmoke flex flex-row items-start justify-start py-0.5 pr-0.5 pl-[3px] box-border min-w-[72px] max-w-[78px] z-[1]">
-                <div className="h-[23px] w-[78px] relative bg-whitesmoke hidden" />
-                <div className="flex-1 relative inline-block min-w-[72.6px] z-[1]">
-                  Tag1Tag1
-                </div>
-              </div>
-            </div>
+            
+            
           </div>
         </div>
       </div>

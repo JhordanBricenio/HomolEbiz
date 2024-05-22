@@ -32,7 +32,7 @@ export default function TableBusqueda() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
+          {rows.map((row,index) => (
             <TableRow key={row.ruc}>
               <TableCell component="th" scope="row">
                 {/* Añadir un checkbox */}
@@ -45,7 +45,7 @@ export default function TableBusqueda() {
               </TableCell>
               <TableCell>{row.ruc}</TableCell>
               <TableCell>
-                <div className="circle">
+                { index % 2 === 0 ? ( <div className="circle">
                   <svg
                     className="checkmark"
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,13 @@ export default function TableBusqueda() {
                       d="M14.1 27.2l7.1 7.2 16.7-16.8"
                     />
                   </svg>
-                </div>
+                </div>):(
+                  <div>
+                    
+                  </div>
+                  
+                
+                )}
               </TableCell>
               <TableCell>
                 <a className="text-blue-500 underline" href="">

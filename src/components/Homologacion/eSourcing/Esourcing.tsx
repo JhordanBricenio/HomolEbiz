@@ -16,18 +16,18 @@ import Table from "./Table";
 import Nav from "../../Nav/Nav";
 function Esourcing() {
   return (
-    <div className="flex flex-row mt-60">
+    <div className="flex flex-row ">
       <div>
         <Nav />
       </div>
-      <div className="w-full relative bg-whitesmoke overflow-hidden flex flex-col items-start justify-start pt-[30px] px-[20px] pb-[106px] box-border tracking-[normal] leading-[normal] lg:pl-[50px] lg:pr-[50px] lg:box-border mq750:pl-[25px] mq750:pr-[25px] mq750:box-border">
-        <div className="w-10 h-[30px] absolute !m-[0] top-[0px] left-[3px] z-[2]">
+      <div className="w-full relative bg-whitesmoke overflow-hidden flex flex-col items-start justify-start pt-[40px] px-[20px] pb-[106px] box-border tracking-[normal] leading-[normal] lg:pl-[50px] lg:pr-[50px] lg:box-border mq750:pl-[25px] mq750:pr-[25px] mq750:box-border">
+        <div className="w-10 h-[30px] absolute !m-[0] top-[0px] left-[8px] z-[2]">
           <div className="absolute top-[0px] left-[6.6px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-[50%] bg-white-color w-7 h-[29.4px]" />
           <div className="absolute top-[0px] left-[0px] h-full flex flex-col items-center justify-center py-0 px-0 box-border w-full z-[1]">
-            <div className="w-10 h-10 rounded-81xl overflow-hidden shrink-0 flex flex-row items-center justify-center">
+            <div className="w-7 h-7 rounded-81xl overflow-hidden shrink-0 flex flex-row items-center justify-center">
               <div className="flex flex-row items-center justify-center p-2">
                 <img
-                  className="h-6 w-6 relative"
+                  className="h-5 w-5 relative"
                   loading="lazy"
                   alt=""
                   src={iconsmorevert}
@@ -41,12 +41,6 @@ function Esourcing() {
             <div className="h-[47px] w-[303px] relative rounded-8xs bg-darkslateblue hidden" />
             <div className="relative z-[2]">
               eSOURCING: Creación de requerimineto
-            </div>
-          </div>
-          <div className="!m-[0] absolute top-[-29px] right-[23px] rounded-8xs bg-darkslateblue flex flex-row items-start justify-start pt-[15px] px-[26px] pb-4 z-[1]">
-            <div className="h-[47px] w-[165px] relative rounded-8xs bg-darkslateblue hidden" />
-            <div className="relative inline-block min-w-[110px] z-[2]">
-              USUARIO YURA
             </div>
           </div>
           <section className="flex-1 rounded-8xs bg-white-color flex flex-col items-start justify-start pt-[67px] px-[13px] pb-[94px] box-border gap-[27px] max-w-full text-left text-sm text-white-color font-typography-body2 lg:pt-11 lg:pb-[61px] lg:box-border mq750:pt-[29px] mq750:pb-10 mq750:box-border">
@@ -261,7 +255,33 @@ function Esourcing() {
                       <div className="flex flex-col items-start justify-start gap-[7px]">
                         <div className="flex flex-row items-start justify-start py-0 pr-0 pl-px">
                           <div className="relative font-semibold z-[3]">
-                            <p className="m-0">Proveedor 1</p>
+                            <div className="flex flex-row gap-3">
+                            <p className="m-0">
+                              Proveedor 1
+                             
+                            </p>
+                            <div className="circle">
+                                <svg
+                                  className="checkmark"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 52 52"
+                                >
+                                  <circle
+                                    className="checkmark__circle"
+                                    cx="26"
+                                    cy="26"
+                                    r="25"
+                                    fill="none"
+                                  />
+                                  <path
+                                    className="checkmark__check"
+                                    fill="none"
+                                    d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                            
                             <p className="m-0">RUC 0938211811</p>
                           </div>
                         </div>
@@ -280,7 +300,32 @@ function Esourcing() {
                         <div className="self-stretch flex flex-col items-start justify-start gap-[7px]">
                           <div className="flex flex-row items-start justify-start py-0 pr-0 pl-px">
                             <div className="relative font-semibold z-[3]">
-                              <p className="m-0">Proveedor 1</p>
+                            <div className="flex flex-row gap-3">
+                            <p className="m-0">
+                              Proveedor 2
+                             
+                            </p>
+                            <div className="circle">
+                                <svg
+                                  className="checkmark"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 52 52"
+                                >
+                                  <circle
+                                    className="checkmark__circle"
+                                    cx="26"
+                                    cy="26"
+                                    r="25"
+                                    fill="none"
+                                  />
+                                  <path
+                                    className="checkmark__check"
+                                    fill="none"
+                                    d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
                               <p className="m-0">RUC 0938211811</p>
                             </div>
                           </div>
@@ -337,7 +382,32 @@ function Esourcing() {
                       <div className="flex flex-col items-start justify-start gap-[7px]">
                         <div className="flex flex-row items-start justify-start py-0 pr-0 pl-px">
                           <div className="relative font-semibold z-[3]">
-                            <p className="m-0">Proveedor 1</p>
+                          <div className="flex flex-row gap-3">
+                            <p className="m-0">
+                              Proveedor 4
+                             
+                            </p>
+                            <div className="circle">
+                                <svg
+                                  className="checkmark"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 52 52"
+                                >
+                                  <circle
+                                    className="checkmark__circle"
+                                    cx="26"
+                                    cy="26"
+                                    r="25"
+                                    fill="none"
+                                  />
+                                  <path
+                                    className="checkmark__check"
+                                    fill="none"
+                                    d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
                             <p className="m-0">RUC 0938211811</p>
                           </div>
                         </div>

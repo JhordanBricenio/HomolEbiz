@@ -56,9 +56,12 @@ function Nav() {
             <nav className="m-0 flex flex-col gap-[20px] text-base text-white font-roboto">
               <ul className="">
                 <li className="mb-4">
-                  <div className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left cursor-pointer">
-                    Organización
-                  </div>
+                  <Link
+                    className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
+                    to="/editOrg"
+                  >
+                   O  Organización
+                  </Link>
                 </li>
 
                 <li>
@@ -66,7 +69,7 @@ function Nav() {
                     className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left cursor-pointer"
                     onClick={toggleUserOptions}
                   >
-                    Usuarios
+                  U  Usuarios
                   </div>
                   {showUserOptions && (
                     <ul className="pl-4 space-y-1">
@@ -94,51 +97,40 @@ function Nav() {
                 href="#"
                 className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
               >
-                RQ Requerimiento
+                RQ  Requerimiento
               </a>
               <a
                 href="#"
                 className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
               >
-                CP Comprobante de pago
+                CP  Comprobante de pago
               </a>
               <a
                 href="#"
                 className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
               >
-                OC Orden de compra
+                OC  Orden de compra
               </a>
               <a
                 href="#"
                 className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
               >
-                SC Solicitud de cotización
+                SC  Solicitud de cotización
               </a>
               <a
                 href="#"
                 className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
               >
-                C Cotización
+                C  Cotización
               </a>
-              <a
-                href="#"
-                className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
-              >
-                E Evaluación
-              </a>
-              <ul className="">
-                <li className="mb-4">
-                  <div className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left cursor-pointer">
-                    Organización
-                  </div>
-                </li>
 
+              <ul className="">
                 <li>
                   <div
                     className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left cursor-pointer"
                     onClick={toggleHomloptions}
                   >
-                    Homologación
+                   H  Homologación
                   </div>
                   {showHomlOptions && (
                     <ul className="pl-4 space-y-1">
@@ -148,14 +140,6 @@ function Nav() {
                           to="/homologacion/config"
                         >
                           Configuración
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
-                          to="/homologacion/listaprovee"
-                        >
-                          Lista de Proveedores
                         </Link>
                       </li>
                       <li>
@@ -173,7 +157,15 @@ function Nav() {
                         >
                           Procesos
                         </Link>
-                      </li> 
+                      </li>
+                      <li>
+                        <Link
+                          className="block py-2.5 px-4 w-full rounded transition duration-200 hover:bg-white hover:bg-opacity-10 text-left"
+                          to="/homologacion/listaprovee"
+                        >
+                          Lista de Proveedores
+                        </Link>
+                      </li>
                     </ul>
                   )}
                 </li>

@@ -327,7 +327,7 @@ const YuraComponent: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="!m-[0] absolute top-[0px] left-[29.7px] rounded bg-darkslateblue-200 flex flex-row items-start justify-start pt-[11px] px-[19px] pb-3 z-[2] text-sm text-white hover:bg-darkslateblue-100">
+      <div className="!m-[0] absolute top-[0px] left-[29.7px] rounded bg-darkslateblue flex flex-row items-start justify-start pt-[11px] px-[19px] pb-3 z-[2] text-sm text-white hover:bg-darkslateblue-100">
         <div className="h-10 w-[81.2px] relative rounded bg-darkslateblue-200 hidden" />
         <div className="relative inline-block min-w-[41.6px] z-[1]">YURA</div>
       </div>

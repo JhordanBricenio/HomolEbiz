@@ -29,7 +29,7 @@ function EditUser() {
           </div>
         </div>
         <main className="self-stretch rounded-3xs bg-white-color flex flex-col items-start justify-start pt-5 px-[19px] pb-[137px] box-border gap-[37px] max-w-full mt-[-43px] mq450:pb-[58px] mq450:box-border mq750:gap-[18px] mq1050:pb-[89px] mq1050:box-border">
-          <div className="w-[1200px] h-[854px] relative rounded-3xs bg-white-color hidden max-w-full" />
+        <div className="w-[1200px] h-[791px] relative rounded-3xs bg-white-color hidden max-w-full" />
           <section className="self-stretch flex flex-col items-start justify-start gap-[41px] max-w-full text-left text-base text-gray-500 font-roboto mq750:gap-[20px]">
             <div className="w-[310px] flex flex-row items-start justify-center py-0 px-5 box-border">
               <div className="relative inline-block min-w-[100px] z-[1]">
