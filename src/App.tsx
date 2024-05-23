@@ -1,9 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
-import LoginRegistro from "./components/Registro/Registro";
-import PerfilN from "./components/PerfilN/PerfilNComponent";
-import Procesos from "./components/Procesos/ProcesosComponent";
-import ProcesosEdicion from "./components/ProcesosEdicion/ProcesosEdicionComponent";
 import EditOrg from "./components/Organizacion/OrganizacionEdit";
 import BuscarUser from "./components/Usuarios/BuscarUser";
 import EditUser from "./components/Usuarios/EditUser";

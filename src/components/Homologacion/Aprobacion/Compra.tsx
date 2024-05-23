@@ -1,9 +1,9 @@
-import { Box, Button, LinearProgress } from "@mui/material";
+import { Button, LinearProgress } from "@mui/material";
 
 import iconsmorevert from "../../../assets/images/evalaucion/iconsmore-vert-24px.svg";
 import TableCompra from "./TableCompra";
 import Nav from "../../Nav/Nav";
-import React from "react";
+
 
 const Aprobacion = () => {
   return (
@@ -35,8 +35,8 @@ const Aprobacion = () => {
             </div>
           </div>
           <div className="!m-[0] absolute top-[-24px] right-[27px] rounded-8xs bg-cornflowerblue flex flex-row items-center justify-center pt-[15px] px-[26px] pb-4 z-[1]">
-            <div className="h-[47px] w-[165px] relative rounded-8xs bg-cornflowerblue hidden" />
-            <div className="relative inline-block min-w-[110px] z-[2]">
+            <div className="h-[47px] w-[155px] relative rounded-8xs bg-cornflowerblue hidden" />
+            <div className="relative text-center inline-block min-w-[110px] z-[2]">
               HISTORIAL
             </div>
           </div>
@@ -49,14 +49,16 @@ const Aprobacion = () => {
                   sx={{
                     bgcolor: "#f5f5f5",
                     height: 20,
-                    borderRadius: 5,
+                    borderRadius: 2,
                     width: 718,
                   }}
                   variant="determinate"
                   value={30}
                   
                 />
+                <div className="text-gray-500 text-sm">
                 PROGRESO: 2/5 Requisitos cumplidos
+                </div>
               </div>
               <Button
                 className="h-[46px] w-[108px] shadow-[0px_4px_9.7px_rgba(0,_0,_0,_0.25)] z-[1]"

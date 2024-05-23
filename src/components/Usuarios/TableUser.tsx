@@ -27,21 +27,21 @@ export default function TableUser() {
   return (
     <TableContainer component={Paper}>
       <Table size="small">
-        <TableHead>
+        <TableHead className="font-bold">
           <TableRow>
-            <TableCell style={{ color: "#000000" }}>
+            <TableCell style={{ color: "#000000", fontStyle:'italic' }}>
               <Checkbox {...label} defaultChecked />
             </TableCell>
-            <TableCell style={{ color: "#000000" }}>Usuario</TableCell>
-            <TableCell style={{ color: "#000000" }}>
+            <TableCell style={{ color: "#000000", fontWeight:'bold'  }}>Usuario</TableCell>
+            <TableCell style={{ color: "#000000",fontWeight:'bold'  }}>
               Apellidos y Nombres
             </TableCell>
-            <TableCell style={{ color: "#000000" }}>
+            <TableCell style={{ color: "#000000",fontWeight:'bold'  }}>
               Correo Electrónico
             </TableCell>
-            <TableCell style={{ color: "#000000" }}>Área</TableCell>
-            <TableCell style={{ color: "#000000" }}>Estado</TableCell>
-            <TableCell style={{ color: "#000000" }}>Acciones</TableCell>
+            <TableCell style={{ color: "#000000",fontWeight:'bold'  }}>Área</TableCell>
+            <TableCell style={{ color: "#000000",fontWeight:'bold'  }}>Estado</TableCell>
+            <TableCell style={{ color: "#000000",fontWeight:'bold'  }}>Acciones</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

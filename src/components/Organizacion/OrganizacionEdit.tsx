@@ -9,6 +9,7 @@ import {
   FormControl,
   Button,
 } from "@mui/material";
+import Chip from "@mui/material/Chip";
 import Nav from "../Nav/Nav";
 import house from "../../assets/images/house.svg";
 
@@ -154,43 +155,15 @@ function EditOrg() {
                     </div>
                     <div className="self-stretch flex-1 shadow-[0px_4px_7.6px_rgba(0,_0,_0,_0.25)] rounded-8xs bg-white-color box-border flex flex-row items-start justify-start pt-7 px-2.5 pb-5 max-w-full z-[1] mt-[-19px] text-sm text-black font-cabin border-[1px] border-solid border-gray-300">
                       <div className="h-[170px] w-[338px] relative shadow-[0px_4px_7.6px_rgba(0,_0,_0,_0.25)] rounded-8xs bg-white-color box-border hidden max-w-full border-[1px] border-solid border-gray-300" />
-                      <div className="self-stretch w-[280px] flex flex-row flex-wrap items-start justify-start gap-[18px_15px] z-[2]">
-                        <div className="rounded-8xs bg-white-color flex flex-row items-start justify-start pt-[3px] pb-1 pr-[26px] pl-[27px] whitespace-nowrap border-[1px] border-solid border-gray-200">
-                          <div className="h-7 w-[82px] relative rounded-8xs bg-white-color box-border hidden border-[1px] border-solid border-gray-200" />
-                          <div className="relative inline-block min-w-[29px] z-[1]">
-                            Tag 1
-                          </div>
-                        </div>
-                        <div className="rounded-8xs bg-white-color flex flex-row items-start justify-start pt-[3px] pb-1 pr-[26px] pl-[27px] whitespace-nowrap border-[1px] border-solid border-gray-200">
-                          <div className="h-7 w-[82px] relative rounded-8xs bg-white-color box-border hidden border-[1px] border-solid border-gray-200" />
-                          <div className="relative inline-block min-w-[29px] z-[1]">
-                            Tag 1
-                          </div>
-                        </div>
-                        <div className="rounded-8xs bg-white-color flex flex-row items-start justify-start pt-[3px] pb-1 pr-[26px] pl-[27px] whitespace-nowrap border-[1px] border-solid border-gray-200">
-                          <div className="h-7 w-[82px] relative rounded-8xs bg-white-color box-border hidden border-[1px] border-solid border-gray-200" />
-                          <div className="relative inline-block min-w-[29px] z-[1]">
-                            Tag 2
-                          </div>
-                        </div>
-                        <div className="rounded-8xs bg-white-color flex flex-row items-start justify-start pt-[3px] pb-1 pr-[26px] pl-[27px] whitespace-nowrap border-[1px] border-solid border-gray-200">
-                          <div className="h-7 w-[82px] relative rounded-8xs bg-white-color box-border hidden border-[1px] border-solid border-gray-200" />
-                          <div className="relative inline-block min-w-[29px] z-[1]">
-                            Tag 3
-                          </div>
-                        </div>
-                        <div className="rounded-8xs bg-white-color flex flex-row items-start justify-start pt-[3px] pb-1 pr-[26px] pl-[27px] whitespace-nowrap text-cornflowerblue-200 border-[1px] border-solid border-gray-200">
-                          <div className="h-7 w-[82px] relative rounded-8xs bg-white-color box-border hidden border-[1px] border-solid border-gray-200" />
-                          <div className="relative inline-block min-w-[29px] z-[1]">
-                            Tag 5
-                          </div>
-                        </div>
-                        <div className="rounded-8xs bg-white-color flex flex-row items-start justify-start pt-[3px] pb-1 pr-[26px] pl-[27px] whitespace-nowrap text-cornflowerblue-200 border-[1px] border-solid border-gray-200">
-                          <div className="h-7 w-[82px] relative rounded-8xs bg-white-color box-border hidden border-[1px] border-solid border-gray-200" />
-                          <div className="relative inline-block min-w-[29px] z-[1]">
-                            Tag 6
-                          </div>
-                        </div>
+                      <div className="self-stretch w-[280px] flex flex-row flex-wrap items-center justify-center gap-[18px_15px] z-[2]">
+                        <Chip sx={{padding:'4px'}}  label="Tag 1" size="small" color="primary" />
+                        <Chip  sx={{padding:'4px'}} label="Tag 1" size="small" color="success" />
+                        <Chip  sx={{padding:'4px'}} label="Tag 1" size="small" color="info" />
+                        <Chip  sx={{padding:'4px'}} label="Tag 1" size="small" color="error" />
+                        <Chip  sx={{padding:'4px'}} label="Tag 1" size="small" color="secondary" />
+                        <Chip  sx={{padding:'4px'}} label="Tag 1" size="small" color="warning" />
+                        <Chip  sx={{padding:'4px'}} label="Tag 1" size="small" color="primary" />
+                        <Chip  sx={{padding:'4px'}} label="Tag 1" size="small" color="error" />
                       </div>
                     </div>
                   </div>

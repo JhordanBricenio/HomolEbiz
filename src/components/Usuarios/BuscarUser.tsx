@@ -222,44 +222,45 @@ function BuscarUser() {
                   </Select>
                   <FormHelperText />
                 </FormControl>
-                <div className="w-[453px] flex flex-row items-start justify-start gap-[7px] max-w-full mq800:flex-wrap">
-                  <Button
-                    className="h-[35px] flex-[0.6941] shadow-[0px_4px_9.7px_rgba(0,_0,_0,_0.25)] min-w-[107px] mq450:flex-1"
+                <div className="w-[300px] flex flex-row items-start justify-start gap-[7px] max-w-full mq800:flex-wrap">
+                <Button
+                    className="h-[35px] flex-[0.5294] shadow-[0px_4px_9.7px_rgba(0,_0,_0,_0.25)] min-w-[107px] mq450:flex-1"
                     variant="contained"
                     sx={{
                       textTransform: "none",
                       color: "#fff",
-                      fontSize: "14",
-                      background: "#4caf50",
+                      fontSize: "12px",
+                      background: "#4CAF50",
                       borderRadius: "5px",
-                      "&:hover": { background: "#4caf50" },
+                      "&:hover": { background: "#4CAF50" },
                       height: 35,
                     }}
                   >
                     ACTIVAR
                   </Button>
                   <Button
-                    className="h-[35px] flex-1 shadow-[0px_4px_9.7px_rgba(0,_0,_0,_0.25)] min-w-[107px] mq450:flex-1"
+                    className="h-[35px] flex-[0.6941] shadow-[0px_4px_9.7px_rgba(0,_0,_0,_0.25)] min-w-[107px] mq450:flex-1"
                     variant="contained"
                     sx={{
                       textTransform: "none",
                       color: "#fff",
-                      fontSize: "14",
+                      fontSize: "12px",
                       background: "#f44134",
                       borderRadius: "5px",
                       "&:hover": { background: "#f44134" },
                       height: 35,
                     }}
                   >
+                    
                     DESACTIVAR
-                  </Button>
+                  </Button>    
                   <Button
                     className="h-[35px] flex-[0.5294] shadow-[0px_4px_9.7px_rgba(0,_0,_0,_0.25)] min-w-[107px] mq450:flex-1"
                     variant="contained"
                     sx={{
                       textTransform: "none",
                       color: "#fff",
-                      fontSize: "14",
+                      fontSize: "12px",
                       background: "#34a1e6",
                       borderRadius: "5px",
                       "&:hover": { background: "#34a1e6" },
